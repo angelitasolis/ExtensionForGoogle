@@ -8,7 +8,7 @@ interface SelectAITypeProps {
 export function SelectAIType({ value, onChange }: SelectAITypeProps) {
   return (
     <div className="flex flex-col space-y-2">
-       <label htmlFor="aiTypeSelect" className="text-gray-700">Select AI Type:</label>
+       <label htmlFor="aiTypeSelect" className="text-gray-700">Selected AI Type:</label>
       <select
         id="aiTypeSelect" 
         className="border-2 border-gray-300 p-2 rounded-md"
